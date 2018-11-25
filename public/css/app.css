@@ -10584,6 +10584,13 @@ body {
 }
 
 .footer-rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 107px;
   width: 100%;
   background-color: #D8D8D8;
@@ -10593,5 +10600,15 @@ body {
   position: relative;
   top: 45px;
   right: 27px;
+  cursor: pointer;
+}
+
+.footer-logo {
+  height: 100%;
+  border-right: 1px solid #C1B7B7;
+  width: 12.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 

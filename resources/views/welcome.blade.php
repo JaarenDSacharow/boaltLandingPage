@@ -53,7 +53,7 @@
                                 <div>Building Value.</div>
                             </div>
                             <div class="circle-link">
-                                <div style="background-image: url('assets/img/circlePlug.png'); width:12px; height:33px; position: relative;top: 45px; left: 22px; z-index: 1000;"></div>
+                                <div style="background-image: url('assets/img/circlePlug.png'); width:12px; height:33px; position: relative;top: 45px; left: 22px;"></div>
                                 <svg height="56" width="56">
                                     <circle cx="28" cy="28" r="26"  fill="#E11331" />
                                 </svg>
@@ -65,10 +65,30 @@
             </div>
 
             <div class="footer-rectangle">
-
-           
-            
-
-        </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_EXPERIENCE.png'); margin:auto auto; height: 25px; width:76px; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_SONY.png'); margin:auto auto; height: 25px; width:104px; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_WESTIN.png'); margin:auto auto; height: 31px; width:97px; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_BACARDI.png'); margin:auto auto; height: 48px; width:82px; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_FORD.png'); margin:auto auto; height: 43px; width:100px; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_STERICYCLE.png'); margin:auto auto; height: 25px; width:118px; background-repeat: no-repeat; "></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_RADISSON.png'); margin:auto auto; height: 62px; width:97px; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="footer-logo">
+                    <div style="background-image: url('assets/img/client_logos/logo_CVS.png'); margin:auto auto; height: 17px; width:128px; background-repeat: no-repeat;"></div>
+                </div>
+            </div>
     </body>
 </html>
