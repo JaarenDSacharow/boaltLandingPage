@@ -8,6 +8,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:100" rel="stylesheet">
+
         <link href="css/app.css" rel="stylesheet" /> 
 
      
@@ -28,17 +31,42 @@
                 </div>
             @endif
 
-
+           
                 <div class="main-left full-height">
-                    test
+                    <div class="boalt-logo-main">
+                        <img src="assets/img/BoaltLogo.png" style="width:100%;"/>
+                    </div>
+                    <div style="float:left; margin-top:446px;">
+                        <div class="main-right-line"></div>
+                        <div class="main-right-text">
+                            DIGITAL EXPERIENCE CONSULTANCY
+                        </div>
+                    </div>  
                 </div>
                 <div class="main-right full-height">
-                    <div class="main-right-image full-height">
-
-                     <img src="assets/img/mainLeftBG.png" style="width:100%;" class="full-height"/>
+                    <div class="main-right-image full-height" >
+                        <div class="full-height" style="background-image: url('assets/img/mainLeftBG.png'); width: 100%; background-size: 100% 100%;">
+                            <div class="main-left-text">
+                                <div>Stirring Innovation.</div>
+                                <div>Creating Experiences.</div>
+                                <div>Maximizing Opportunity.</div>
+                                <div>Building Value.</div>
+                            </div>
+                            <div class="circle-link">
+                                <div style="background-image: url('assets/img/circlePlug.png'); width:12px; height:33px; position: relative;top: 45px; left: 22px; z-index: 1000;"></div>
+                                <svg height="56" width="56">
+                                    <circle cx="28" cy="28" r="26"  fill="#E11331" />
+                                </svg>
+                            </div>      
+                        </div>
                     </div>
-                   
                 </div>
+
+            </div>
+
+            <div class="footer-rectangle">
+
+           
             
 
         </div>

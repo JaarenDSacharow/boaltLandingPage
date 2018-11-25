@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);/*!
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);@import url(https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:100);/*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10476,14 +10476,14 @@ html,
 body {
   background-color: #fff;
   color: #636b6f;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   height: 100vh;
   margin: 0;
 }
 
 .full-height {
-  height: 100vh;
+  height: 89vh;
 }
 
 .flex-left {
@@ -10551,5 +10551,47 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.boalt-logo-main {
+  width: 176px;
+  height: 32px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.main-left-text {
+  font-size: 3em;
+  color: white;
+  margin-left: 48px;
+  margin-top: 352px;
+  height: 236px;
+}
+
+.main-right-line {
+  color: red;
+  margin-right: 5px;
+  margin-top: 12px;
+  border-bottom: 1px solid red;
+  width: 365px;
+  float: left;
+}
+
+.main-right-text {
+  color: red;
+  float: left;
+  font-size: 16px;
+}
+
+.footer-rectangle {
+  height: 107px;
+  width: 100%;
+  background-color: #D8D8D8;
+}
+
+.circle-link {
+  position: relative;
+  top: 45px;
+  right: 27px;
 }
 
