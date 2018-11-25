@@ -53,7 +53,10 @@
                                 <div>Building Value.</div>
                             </div>
                             <div class="circle-link">
-                                <div style="background-image: url('assets/img/circlePlug.png'); width:12px; height:33px; position: relative;top: 45px; left: 22px;"></div>
+                            
+                                <div style="width:12px; height:33px; position: relative;top: 45px; left: 22px;">
+                                    <a href="{{ url('/connect') }}"><img src="assets/img/circlePlug.png" /></a>
+                                </div>
                                 <svg height="56" width="56">
                                     <circle cx="28" cy="28" r="26"  fill="#E11331" />
                                 </svg>
