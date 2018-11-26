@@ -37,6 +37,13 @@
                 flex-direction: row;
             }
 
+            .flex-column {
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+            }
+
             .position-ref {
                 position: relative;
             }
@@ -138,4 +145,55 @@
   border-right: 1px solid #C1B7B7;
   width: 12.5%;
   display:flex;
+}
+
+
+.boalt-logo-connect {
+  margin-top:40px;
+  width: 176px;
+  height: 32px;
+  
+}
+
+.connect-header {
+  color: white;
+  font-size: 2em;
+}
+
+#connect-form {
+  position: relative;
+  bottom: 650px;
+  width: 580px;
+  margin: auto;
+  color:white;
+
+}
+
+input[type=text] {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: #E11331;
+  margin-bottom: 20px;
+  height:48px;
+  color:#FFFFFF;
+  width:100%;
+  padding: 10px;
+  
+}
+
+
+::placeholder {
+  color: #FFFFFF;
+  
+  opacity: .5;
+}
+
+textarea#styled {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #FFFFFF;
+  padding: 10px;
+  background-color: #E11331;
+  border-radius: 4px;
+
 }
