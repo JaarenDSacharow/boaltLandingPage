@@ -18,16 +18,16 @@
     <body>
         <div class="flex-column position-ref">
             <div class="boalt-logo-connect">
-                <img src="assets/img/BoaltLogo.png"/>
+            <a href="{{ url('/') }}" ><img src="assets/img/BoaltLogo.png"/></a>
             </div>
                 <div style="width:12px; height:33px; position: relative;top: 65px; right: 46px;">
-                    <img src="assets/img/circlePlugLarge.png" />
+                    <a href="{{ url('/') }}" ><img src="assets/img/circlePlugLarge.png" /></a>
                 </div>
               
                   <div style="height:800px; width:100%;"> 
                  
                     <svg height="865" width="1920">
-                        <circle cx="950" cy="1225" r="1200"  fill="#E11331" />
+                        <circle cx="960" cy="1225" r="1200"  fill="#E11331" />
                     </svg>
                     <div>
                      
@@ -44,7 +44,14 @@
                 <textarea id="styled" placeholder="A few words about your company and what it is you’re trying to accomplish."></textarea>
             </form>
             <div style="width:580px; font-size:13px; opacity:.5;">
-            By filling in the form, you agree to our Privacy Policy, including our cookie use.
+                By filling in the form, you agree to our Privacy Policy, including our cookie use.
+            </div>
+            <!--send button --> 
+            <div style="width:100%; text-align:center;">
+            <div style="position:relative; top:60px; cursor:pointer;">Send</div>
+            <svg height="100" width="100" style="cursor:pointer;">
+                <circle cx="50" cy="50" r="50"  fill="black" />
+            </svg>
             </div>
             
         </div>
