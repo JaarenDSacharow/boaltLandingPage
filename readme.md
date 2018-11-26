@@ -1,3 +1,8 @@
+cp .env.exampple file to .env file and also run
+php artisan key:generate
+
+when checking out fresh.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
