@@ -16,7 +16,7 @@
      
     </head>
     <body>
-        <div class="flex-left position-ref full-height">
+        <div class="flex-left position-ref ">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -32,13 +32,13 @@
             @endif
 
            
-                <div class="main-left full-height">
+                <div class="main-left ">
                     <div class="boalt-logo-main">
-                        <img src="assets/img/BoaltLogo.png" style="width:100%;"/>
+                        <img src="assets/img/BoaltLogo.png" />
                     </div>
-                    <div style="float:left; margin-top:446px;">
-                        <div class="main-right-line"></div>
-                        <div class="main-right-text">
+                    <div class="main-left-text-container">
+                        <div class="main-left-line"></div>
+                        <div class="main-left-text">
                             DIGITAL EXPERIENCE CONSULTANCY
                         </div>
                     </div>  
@@ -46,21 +46,21 @@
                 <div class="main-right full-height">
                     <div class="main-right-image full-height" >
                         <div class="full-height" style="background-image: url('assets/img/mainLeftBG.png'); width: 100%; background-size: 100% 100%;">
-                            <div class="main-left-text">
+                            <div class="main-right-text">
                                 <div>Stirring Innovation.</div>
                                 <div>Creating Experiences.</div>
                                 <div>Maximizing Opportunity.</div>
                                 <div>Building Value.</div>
                             </div>
-                            <div class="circle-link">
-                            
-                                <div style="width:12px; height:33px; position: relative;top: 45px; left: 22px;">
+                           <div class="circle-link">
+                          
+                                <div class="connect-link-logo">
                                     <a href="{{ url('/connect') }}"><img src="assets/img/circlePlug.png" /></a>
                                 </div>
                                 <svg height="56" width="56">
                                     <circle cx="28" cy="28" r="26"  fill="#E11331" />
                                 </svg>
-                            </div>      
+                            </div>   
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);@import url(https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:100);/*!
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);@import url(https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:100);@import url(https://fonts.googleapis.com/css?family=Raleway|Titillium+Web);/*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10500,6 +10500,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  height: 89vh;
 }
 
 .flex-column {
@@ -10550,6 +10551,11 @@ body {
   margin-bottom: 30px;
 }
 
+.main-left-text-container {
+  float: left;
+  margin-top: 446px;
+}
+
 .main-left {
   background-color: white;
   width: 50%;
@@ -10576,7 +10582,8 @@ body {
   margin-top: 40px;
 }
 
-.main-left-text {
+.main-right-text {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 3em;
   color: white;
   margin-left: 48px;
@@ -10584,7 +10591,7 @@ body {
   height: 236px;
 }
 
-.main-right-line {
+.main-left-line {
   color: red;
   margin-right: 5px;
   margin-top: 12px;
@@ -10593,7 +10600,7 @@ body {
   float: left;
 }
 
-.main-right-text {
+.main-left-text {
   color: red;
   float: left;
   font-size: 16px;
@@ -10617,6 +10624,14 @@ body {
   top: 45px;
   right: 27px;
   cursor: pointer;
+}
+
+.connect-link-logo {
+  width: 12px;
+  height: 33px;
+  position: relative;
+  top: 45px;
+  left: 22px;
 }
 
 .footer-logo {
@@ -10680,5 +10695,97 @@ textarea#styled {
   padding: 10px;
   background-color: #E11331;
   border-radius: 4px;
+}
+
+/* responsive styles */
+
+/* (1920x1080) Full HD Display */
+
+@media screen and (max-width: 1920px) {
+  .circle {
+    height: 990px;
+    overflow: hidden;
+    bottom: 14px;
+  }
+
+  #connect-form {
+    bottom: 838px;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex-left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 90vh;
+  }
+
+  .main-left {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-right {
+    background-color: black;
+    width: 100%;
+    height: 290vh;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+  }
+
+  .main-left-text-container {
+    margin-top: 55px;
+  }
+
+  .main-left-line {
+    width: 155px;
+  }
+
+  .main-right-text {
+    margin-top: 125px;
+  }
+
+  .circle-link {
+    left: 254px;
+    position: relative;
+    top: 67px;
+    /* right: -37px; */
+    cursor: pointer;
+  }
+
+  .footer-rectangle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    height: 495px;
+    width: 100%;
+    background-color: #D8D8D8;
+  }
+
+  .footer-logo {
+    height: 60px;
+    border-bottom: 1px solid #C1B7B7;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
